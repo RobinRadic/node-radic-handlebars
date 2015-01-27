@@ -1,0 +1,68 @@
+{
+  "name": "radic-handlebars",
+  "version": "0.0.1",
+  "description": "Combines a lot of third-party helpers into 1",
+  "main": "lib/index.js",
+  "bin": {
+    "radic-handlebars": "radic-handlebars.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "eventemitter2": "^0.4.14",
+    "fs-extra": "^0.15.0",
+    "grunt": "^0.4.5",
+    "grunt-radical": "^0.0.13",
+    "handlebars": "^2.0.0",
+    "handlebars-array": "^0.1.5",
+    "handlebars-comparison": "^1.1.1",
+    "handlebars-fileset": "^0.1.3",
+    "handlebars-fs": "^0.2.0",
+    "handlebars-helper-eachitems": "^0.1.2",
+    "handlebars-helper-pluralize": "^1.0.3",
+    "handlebars-helper-prettify": "^0.2.1",
+    "handlebars-helper-slugify": "^0.3.2",
+    "handlebars-helper-twitter": "^0.1.3",
+    "handlebars-helpers": "^0.5.8",
+    "handlebars-inheritance": "^0.0.1",
+    "handlebars-json": "^0.1.0",
+    "handlebars-layouts": "^1.1.0",
+    "handlebars-paginate": "^0.0.1",
+    "handlebars-precompiler": "^2.0.0",
+    "handlebars-regexp": "^0.1.1",
+    "handlebars-registrar": "^1.0.2",
+    "handlebars-runtime": "^1.0.12",
+    "hbs-analyticsjs-snippet": "^0.2.0",
+    "i18nliner": "^0.0.16",
+    "i18nliner-handlebars": "^0.1.0",
+    "istanbul": "^0.3.5",
+    "jsdom": "^0.8.11",
+    "lodash": "^3.0.0",
+    "node-handlebars": "^0.9.5",
+    "radic": "^0.5.6",
+    "rimraf": "^2.2.8",
+    "sinon": "^1.12.2",
+    "tmp": "^0.0.24"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinradic/node-radic-handlebars"
+  },
+  "keywords": [
+    "handlebars",
+    "radic"
+  ],
+  "author": "Robin Radic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinradic/node-radic-handlebars/issues"
+  },
+  "homepage": "https://github.com/robinradic/node-radic-handlebars"
+}
