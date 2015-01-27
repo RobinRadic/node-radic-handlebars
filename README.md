@@ -22,7 +22,7 @@ var handlebars = rhbs.getHandlebars(['comparison', 'array', 'layouts']);
 ## How to use
 
 ### Documentation
-- [Detailed documentation](http://robin.radic.nl/node-radic)
+- [Detailed documentation](http://robin.radic.nl/node-radic-handlebars)
   
   
   
