@@ -36,7 +36,6 @@
     "i18nliner": "^0.0.16",
     "i18nliner-handlebars": "^0.1.0",
     "istanbul": "^0.3.5",
-    "jsdom": "^0.8.11",
     "lodash": "^3.0.0",
     "node-handlebars": "^0.9.5",
     "radic": "^0.5.6",
