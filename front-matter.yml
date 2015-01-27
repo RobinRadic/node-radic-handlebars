@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Node Radic
+title: Node Radic Handlebars
 minify_content: false
 navigation:
   - name: Home
@@ -8,27 +8,12 @@ navigation:
     icon: fa fa-home
 
   - name: Overview
-    link: /node-radic
+    link: /node-radic-handlebars
     icon: fa fa-dashboard
 
   - name: Coverage
-    link: /node-radic/coverage
+    link: /node-radic-handlebars/coverage
     icon: fa fa-code
 
-  - name: Tutorials
-    link: #
-    icon: fa fa-info
-    children:
-      - name: General
-        link: /node-radic/tutorials
-
-      - name: Cli & Commands
-        link: /node-radic/tutorials/cli.html
-
-      - name: Config & DB
-        link: /node-radic/tutorials/config-db.html
-
-      - name: Binwraps
-        link: /node-radic/tutorials/binwraps.html
 
 ---

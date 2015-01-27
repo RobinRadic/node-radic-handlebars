@@ -1,35 +1,23 @@
 ---
 layout: page
-title: Node Radic
+title: Node Radic Handlebars
 minify_content: false
 navigation:
   - name: Home
     link: /
     icon: fa fa-home
   - name: Overview
-    link: /node-radic
+    link: /node-radic-handlebars
     icon: fa fa-dashboard
   - name: Coverage
-    link: /node-radic/coverage
+    link: /node-radic-handlebars/coverage
     icon: fa fa-code
-  - name: Tutorials
-    link: null
-    icon: fa fa-info
-    children:
-      - name: General
-        link: /node-radic/tutorials
-      - name: "Cli & Commands"
-        link: /node-radic/tutorials/cli.html
-      - name: "Config & DB"
-        link: /node-radic/tutorials/config-db.html
-      - name: Binwraps
-        link: /node-radic/tutorials/binwraps.html
   - name: Namespaces
     link: "#"
     icon: fa fa-mortar-board
     children:
-      - name: radic-handlebars
-        link: /node-radic-handlebars/radic-handlebars.html
+      - name: rhbs
+        link: /node-radic-handlebars/rhbs.html
 
 ---
 # radic-handlebars
