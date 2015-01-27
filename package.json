@@ -1,6 +1,6 @@
 {
   "name": "radic-handlebars",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Combines a lot of third-party helpers into 1",
   "main": "lib/index.js",
   "bin": {
