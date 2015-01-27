@@ -22,7 +22,6 @@ module.exports = function (grunt) {
         radic_coverage: {
             docs: {
                 options: {
-                    exclude: ['lib/cli/_celeri/**'],
                     frontMatterPath: 'docs/processed-front-matter.yml'
                 }
             }
